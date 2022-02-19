@@ -508,7 +508,7 @@ body {
   position: absolute;
   top: 20%;
   left: 65.7%;
-  z-index: 2;
+  z-index: 5000;
   background: none;
   border: none;
   color: red;
