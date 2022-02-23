@@ -101,6 +101,7 @@ body {
 .info__h1 {
   color: black;
   text-transform: uppercase;
+  font-size: 50px;
 }
 
 .info__flex {
@@ -137,6 +138,24 @@ body {
   .info__flex div {
     margin: 20px;
     border: 1px solid whitesmoke;
+  }
+}
+
+@media (max-width: 465px) {
+  .info__h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 388px) {
+  .info__h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 311px) {
+  .info__h1 {
+    font-size: 29px;
   }
 }
 
