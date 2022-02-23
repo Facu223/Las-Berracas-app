@@ -48,7 +48,6 @@ body {
 .img__class h1 {
   text-align: center;
   font-family: "Redressed", cursive;
-
   color: rgb(245, 68, 97);
   font-size: 50px;
   pointer-events: none;
@@ -144,6 +143,7 @@ body {
 @media (max-width: 679px) {
   .info__flex div {
     width: 100%;
+    border: 10px solid pink;
   }
 
   .info__img {
@@ -332,7 +332,7 @@ body {
   width: 200px;
   height: 350px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   background-color: white;
@@ -340,7 +340,7 @@ body {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   padding: 10px;
   color: white;
-  outline: 1px solid white;
+  outline: 1px solid grey;
 }
 
 .product-card img:hover {
@@ -348,13 +348,14 @@ body {
   cursor: pointer;
 }
 
-.product-card h3 {
-  margin-top: 10px;
-}
-
 .product-card img {
   width: 100%;
-  height: 70%;
+  height: 76%;
+}
+
+.aclaracion{
+  color: black;
+  text-align: center;
 }
 
 .container-ask {
@@ -362,6 +363,7 @@ body {
   text-align: center;
   margin-bottom: -55px;
   margin-top: -40px;
+  color: black;
 }
 
 @media (max-width: 493px) {
@@ -475,11 +477,11 @@ body {
 }
 
 .img {
-  width: 40%;
-  height: 76%;
+  width: 30%;
+  height: 60%;
   position: fixed;
-  top: 18%;
-  left: 30%;
+  top: 25%;
+  left: 35%;
   z-index: 100;
 }
 
@@ -507,8 +509,8 @@ body {
 
 .button-img {
   position: absolute;
-  top: 20%;
-  left: 65.7%;
+  top: 26%;
+  left: 60.7%;
   z-index: 5000;
   background: none;
   border: none;
@@ -540,4 +542,8 @@ body {
   width: 50px;
   height: 50px;
   margin-bottom: 0;
+}
+
+a::visited{
+  color: red;
 }
