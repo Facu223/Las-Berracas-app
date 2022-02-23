@@ -209,11 +209,12 @@ body {
 }
 
 .contact-form {
-  background: rgb(235, 213, 172);
+  background: rgb(236, 230, 218);
 }
 
 .contact-info {
-  background: rgb(241, 208, 147);
+  background: rgb(61, 58, 51);
+  color: white;
 }
 
 .contact-form form p {
