@@ -24,10 +24,6 @@
     "img": "./images/bottles/6.jpeg"
   },
   {
-    "id": "7",
-    "img": "./images/bottles/7.jpeg"
-  },
-  {
     "id": "8",
     "img": "./images/bottles/8.jpeg"
   },
@@ -94,5 +90,49 @@
   {
     "id": "24",
     "img": "./images/bottles/24.jpeg"
+  },
+  {
+    "id": "25",
+    "img": "./images/bottles/25.jpeg"
+  },
+  {
+    "id": "26",
+    "img": "./images/bottles/26.jpeg"
+  },
+  {
+    "id": "27",
+    "img": "./images/bottles/27.jpeg"
+  },
+  {
+    "id": "28",
+    "img": "./images/bottles/28.jpeg"
+  },
+  {
+    "id": "24",
+    "img": "./images/bottles/24.jpeg"
+  },
+  {
+    "id": "29",
+    "img": "./images/bottles/29.jpeg"
+  },
+  {
+    "id": "30",
+    "img": "./images/bottles/30.jpeg"
+  },
+  {
+    "id": "31",
+    "img": "./images/bottles/31.jpeg"
+  },
+  {
+    "id": "32",
+    "img": "./images/bottles/32.jpeg"
+  },
+  {
+    "id": "33",
+    "img": "./images/bottles/33.jpeg"
+  },
+  {
+    "id": "34",
+    "img": "./images/bottles/34.jpeg"
   }
 ]

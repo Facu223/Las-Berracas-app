@@ -4,7 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap");
 
 body {
-
   /* background: rgb(247, 197, 104);
   background: linear-gradient(
     180deg,
@@ -43,7 +42,6 @@ body {
   background-color: black;
   margin-bottom: -40px;
 }
-
 
 .img__class h1 {
   text-align: center;
@@ -89,7 +87,6 @@ body {
     width: 60%;
   }
 }
-
 
 .info {
   width: 100%;
@@ -209,6 +206,31 @@ body {
 .icono-wsp i:hover {
   color: black;
   cursor: pointer;
+}
+
+.icono-arrow {
+  position: fixed;
+  bottom: 15px;
+  left: 20px;
+  font-size: 50px;
+  z-index: 10000;
+}
+
+.icono-arrow i {
+  color: rgb(45, 45, 248);
+}
+
+.icono-arrow i:hover {
+  color: rgb(101, 101, 248);
+  cursor: pointer;
+}
+
+.icono-hand {
+  text-align: center;
+}
+
+.icono-hand i {
+  font-size: 85px;
 }
 
 .contact-wrapper {
@@ -372,7 +394,7 @@ body {
   height: 76%;
 }
 
-.aclaracion{
+.aclaracion {
   color: black;
   text-align: center;
 }
@@ -563,6 +585,6 @@ body {
   margin-bottom: 0;
 }
 
-a::visited{
+a::visited {
   color: red;
 }
