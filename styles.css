@@ -519,11 +519,17 @@ body {
 
 .img {
   width: 30%;
-  height: 60%;
+  height: 73%;
   position: fixed;
-  top: 25%;
+  top: 20%;
   left: 35%;
   z-index: 100;
+}
+
+.text-card {
+  color: black;
+  text-align: center;
+  margin-top: 30px;
 }
 
 @media (max-width: 948px) {
@@ -548,9 +554,29 @@ body {
   }
 }
 
+@media (max-width: 1151px) {
+  .img {
+    width: 50%;
+    left: 25%;
+  }
+  .button-img {
+    left: 70% !important;
+  }
+}
+
+@media (max-width: 630px) {
+  .img {
+    width: 66%;
+    left: 17%;
+  }
+  .button-img {
+    left: 75% !important;
+  }
+}
+
 .button-img {
   position: absolute;
-  top: 26%;
+  top: 21%;
   left: 60.7%;
   z-index: 5000;
   background: none;

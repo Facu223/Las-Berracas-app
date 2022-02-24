@@ -16,6 +16,13 @@ const getProducts = async () => {
     divHijo.classList.add("product-card");
     contenedor.appendChild(divHijo);
 
+    if(e.modelo) {
+      const p = document.createElement("P")
+      p.innerHTML = `Modelo: ${e.modelo}`
+      p.classList.add("text-card")
+      divHijo.appendChild(p)
+    }
+
     divHijo.addEventListener("click", modal);
 
     function modal() {
