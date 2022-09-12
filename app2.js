@@ -44,7 +44,6 @@ const getProducts = async () => {
         imgContainer.removeChild(boton);
       });
     }
-    console.log(e);
   });
 };
 
